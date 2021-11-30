@@ -1,0 +1,11 @@
+name: MagicDelay
+main: com.marcdif.magicdelay.MagicDelay
+version: 1.0
+author: Marc (Legobuilder0813)
+description: Add a simple /delay command!
+commands:
+  delay:
+    description: Delay command!
+    permission: magicdelay.delay
+    permission-message: You do not have permission!
+    usage: /delay [delay in seconds] x y z
